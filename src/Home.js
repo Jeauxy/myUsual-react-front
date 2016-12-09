@@ -13,9 +13,7 @@ class Home extends Component{
             <Logout className="logout" />
           </div>
           <img id="logos" src="./myUsual-logo.jpeg" />
-          {/* <h1 id="header-title">myUsual</h1> */}
         </div>
-        {/* <h1>THIS IS WHERE CONTENT GOES</h1> */}
         <Lists lists={this.props.lists} />
       </div>
     )
