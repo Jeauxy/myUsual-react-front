@@ -1,0 +1,330 @@
+.App .login {
+  text-align: center;
+
+}
+
+/*This is where the CSS for myUsual starts*/
+
+
+
+/* This is for the LOGIN BUTTON */
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-group-lg>.btn, .btn-lg a{
+  color: #fff;
+  padding: 0 15px 0 15px;
+}
+
+.Login{
+  background-image: url('/myUsual-main.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#home{
+  background-color: rgba(0, 158, 227, 0.6);
+  /*background-image: url('/myUsual-bkgd.jpg');*/
+  height: 100vh;
+  width: 100vw;
+}
+
+body{
+  /*background-image: url('/myUsual-bkgd.jpg');*/
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+  font-size: 40px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.bordernone{
+  border: 0;
+}
+
+.col-md-6{
+  border-left: solid #dedede 1px;
+  border-right: solid #dedede 1px;
+}
+
+.col-md-3.bordernone{
+  width: 340px;
+}
+
+.delete-link{
+  padding-top: 8px;
+}
+
+.list-food-item{
+  border-bottom: solid #dedede 1px;
+}
+
+.list-food-item:last-of-type{
+  border-bottom: 0;
+}
+
+.list-food-item .delete-link{
+  margin: 0 0 10px 20px;
+  font-size: 12px;
+  float: right;
+  color: #990000;
+}
+
+.row{
+  background-color: #fff;
+}
+
+.row div{
+  background-color: #fff;
+}
+
+.space{
+  margin: 0 10px;
+}
+
+#blank{
+  display: block;
+  position: relative;
+  width: 600px;
+  height: 60px;
+}
+
+#btn-login{
+  background: rgba(255,255,255, 0.9);
+  color: #4A4A4A;
+  padding: 10px 30px;
+}
+
+#btn-login a{
+  color: #4A4A4A;
+}
+
+#btn-logout{
+  background: rgba(251, 116, 52, 0.9);
+  color: #fff;
+  padding: 10px 17px;
+}
+
+#button{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#logout-button{
+  text-align: right;
+  padding-top: 10px;
+}
+
+#logout-button a{
+  color: #fff;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+#foodstoresubmit{
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+#foodstoresubmit p input, #user-list-form p input{
+  margin-right: 20px;
+}
+
+#fooditemsubmit{
+  background: #009EEB;
+}
+
+#food-lists{
+  text-align: center;
+  background-color: #D8D8D8;
+  height: 100vh;
+}
+
+#new-food{
+  text-align: center;
+  background-color: #D8D8D8;
+  height: 100vh;
+}
+
+#footer-content{
+  color: #fff;
+  text-align: center;
+}
+
+#firstName{
+  color: #fff;
+  display: inline-block;
+  align: right;
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  padding: 5px 80px 0 0;
+}
+
+#header-color{
+  color: #13487A;
+}
+
+#input-button{
+  background: #13487A;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#lists{
+  background: rgba(255,255,255,0.1);
+  text-align: left;
+  list-style: none;
+}
+
+#lists ul{
+  background: rgba(255,255,255,0.1);
+  text-align: left;
+  list-style: none;
+}
+
+#list-title{
+  text-align: center;
+  color: #13487A;
+}
+
+#list-content-items{
+  text-align: left;
+}
+
+#listsharecontent, #users-list{
+  padding: 10px;
+}
+
+#listsharecontent{
+  border: solid #dedede 1px;
+  text-align: left;
+}
+
+#listsubmit, #btn-share{
+  background: #009EEB;
+}
+
+#logout{
+  display: inline;
+  align: right;
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+}
+
+#main{
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: #fff;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+#nav{
+  margin-bottom: 0;
+  background: rgba(255,255,255,.1);
+}
+
+#title{
+  color: #43ABEA;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 50px;
+}
+
+#welcome{
+  position:relative;
+  padding-top: 150px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+#header{
+  background-color: #009EEB;
+  padding-bottom: 25px;
+
+}
+
+#header-title{
+  color: #fff;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+#fast-foods{
+  display: block;
+  padding: 5px 5px;
+  margin: 15px 15px;
+}
+
+#fast-food{
+  display: inline-block;
+}
+
+#home-banner{
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #fff;
+  width: 800px;
+  height: 400px;
+  background-color: rgba(0, 158, 227, 0.1);
+  border-radius: 10px;
+  border-width: 6px;
+  border-color: #FEA680;
+  margin-top: 125px;
+}
+
+#img{
+  border-radius: 50%;
+  height:100%;
+  width:100%;
+  /*background-size: contain;*/
+
+}
+
+#images{
+  display: inline-block;
+  padding: 0 5px 0 5px;
+
+}
+
+#buttons{
+  position:relative;
+  height:120px;
+  width:120px;
+  border: none;
+  background-color: #D8D8D8;
+  padding: 0px;
+}
+
+#logos{
+  border-radius: 50%;
+}
