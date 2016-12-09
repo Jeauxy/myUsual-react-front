@@ -22,5 +22,5 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://jeauxy.github.io/myUsual-react-front/"
+  "homepage": "https://jeauxy.github.io/myUsual-react-front/tree/master/myUsual-React-Front"
 }
