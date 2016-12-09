@@ -84,9 +84,9 @@ class Lists extends Component{
             </div>
           </div>
           <div className="col-md-3 bordernone">
-            {/* <div id="form-placeholder">
-              <h3>Select a list on the left to add new items.</h3>
-            </div> */}
+            <div id="form-placeholder">
+              {/* <h3>Select a list on the left to add new items.</h3> */}
+            </div>
             <div id="new-food">
               <h2 id="header-color">New Item</h2>
               <h4 id="required">*All Fields Required*</h4>
