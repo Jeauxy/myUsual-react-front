@@ -23,7 +23,7 @@
 }
 
 .Login{
-  background-image: url('/myUsual-main.jpg');
+  background-image: url('../images/myusual-main.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
