@@ -19,16 +19,7 @@ class Login extends Component {
     )
   }
 
-  _logoutLink(){
-
-    return (
-      <a href="#" onClick={(e)=>{
-        e.preventDefault();
-        auth.login();
-      }}>Logout</a>
-
-    )
-  }
+  
 
   googleLogin() {
 
@@ -44,16 +35,16 @@ class Login extends Component {
   render() {
   let signUpLink;
     if (auth.loggedIn()){
-      signUpLink = this.googleLogin();
-    } else {
       signUpLink = this._logoutLink();
+    } else {
+      signUpLink = this.googleLogin();
     }
 
   let sessionLink;
    if (auth.loggedIn()){
-     sessionLink = this._loginLink();
-   } else {
      sessionLink = this._logoutLink();
+   } else {
+     sessionLink = this._loginLink();
    }
 
 
