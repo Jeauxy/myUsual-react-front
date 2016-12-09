@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+
 class Lists extends Component{
   constructor(props){
     super(props);
@@ -68,7 +69,7 @@ class Lists extends Component{
                 <input id="list-name" type="text" name="list" placeholder="New Usual" maxLength="141" />
                 <br/>
                 <br/>
-              <input id="listsubmit" className="btn btn-primary btn-lg" type="submit" value="Add Usual" />
+                <input id="listsubmit" className="btn btn-primary btn-lg" type="submit" value="Add Usual" />
               </form>
             </div>
           </div>

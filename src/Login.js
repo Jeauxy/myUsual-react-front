@@ -19,8 +19,6 @@ class Login extends Component {
     )
   }
 
-  
-
   googleLogin() {
 
     return (

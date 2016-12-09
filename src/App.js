@@ -50,7 +50,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="content">
-          {console.log('about to render cows')}
+          {console.log('Go on and render dem moo moos')}
           {cows}
         </div>
       </div>
